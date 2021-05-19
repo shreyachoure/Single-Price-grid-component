@@ -1,0 +1,118 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --brightYellow: hsl(71, 73%, 54%);
+    --lightGray: hsl(204, 43%, 93%);
+    --grayishBlue: hsl(218, 22%, 67%);
+}
+body {
+    font-family: 'Karla';
+    font-size: 16px;
+}
+.container-fluid {
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.container {
+    margin: 0px auto;
+ 
+}
+.details {
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+.join {
+    background-color: #fff;
+}
+.join h1 {
+    color: var(--cyan);
+    font-size: 25px;
+    font-weight: 700;
+}
+.join h3 {
+    color: var(--brightYellow);
+    font-weight: 700;
+    font-size: 16px;
+}
+.join p {
+    color:var(--grayishBlue);
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.subscription {
+    background-color: var(--cyan);
+}
+h2 {
+    color: var(--lightGray);
+}
+h3{
+    color: var(--lightGray);
+    
+}
+span {
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 5px;
+}
+button {
+    width: 100%;
+    margin: 0px auto;
+    background-color: var(--brightYellow);
+    padding: 15px 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+button:hover {
+    background-color: var(--lightGray);
+    color: var(--cyan);
+    border: 1px solid var(--brightYellow);
+}
+p {
+    color:var(--lightGray);
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.75;
+    
+}
+.why-us {
+    background-color:hsla(179, 62%, 43%, 0.555);
+}
+@media screen and (min-width: 1025px){
+    .container-fluid {
+        width: 60%;
+        margin: 40px auto;
+        
+    }
+    .details {
+        width: 90%;
+        margin: 0px auto;
+        padding: 20px 0px;
+    }
+    .join {
+        padding: 20px 0px;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    .subscription{
+        width: 50%;
+        margin: 0px auto;
+    }
+    .why-us {
+        width: 50%;
+        margin: 0px auto;
+    }
+    button {
+        margin-top: 30px;
+    }
+}
